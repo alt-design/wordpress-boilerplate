@@ -20,22 +20,32 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
     
         git clone https://github.com/alt-design/wordpress-boilerplate NAME_OF_FOLDER
         
-2. Run npm install to resolve the themes dependencies:
+2. Run <code>npm install</code> to resolve the themes dependencies:
 
         npm install
-    
-3. Run gulp watch to start watching files in the theme's directory for changes:
 
-        gulp watch
-         
-4. Done!
+<br><hr><br>
+
+##Build Files
+1. Run <code>npm run build</code> to build your project (not minified though, see "Get Ready For Production"):
+
+        npm run build
+        
+
+<br><hr><br>
+
+##Watch Files
+1. Run <code>npm run dev</code> to start watching files in the theme's directory for changes:
+
+        npm run dev
+        
 
 <br><hr><br>
 
 ##Get Ready For Production!
-When your project is ready to go live, simply run gulp --production to build your files into lean minified masterpieces:
+When your project is ready to go live, simply <code>npm run production</code> to build your files into lean minified masterpieces:
     
-    gulp --production
+    npm run production
     
 
 <br><hr><br>
