@@ -1,7 +1,7 @@
 module.exports = {
     babel: {
         presets: ['es2015'],
-        plugins: ['transform-runtime']
+        plugins: ['transform-runtime', 'transform-vue-jsx']
     },
     module: {
         loaders: [{
