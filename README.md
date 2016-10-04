@@ -27,17 +27,17 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
 <br><hr><br>
 
 ##Build Files
-1. Run <code>npm run build</code> to build your project (not minified though, see "Get Ready For Production"):
+Run <code>npm run build</code> to build your project (not minified though, see "Get Ready For Production"):
 
-        npm run build
+    npm run build
         
 
 <br><hr><br>
 
 ##Watch Files
-1. Run <code>npm run dev</code> to start watching files in the theme's directory for changes:
+Run <code>npm run dev</code> to start watching files in the theme's directory for changes:
 
-        npm run dev
+    npm run dev
         
 
 <br><hr><br>
