@@ -1,0 +1,59 @@
+/* ===============================
+ * Mobile first media query
+ * =============================== */
+@mixin min($min-width) {
+  @media screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+/* ===============================
+ * Desktop first media query
+ * =============================== */
+@mixin max($max-width) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}
+
+/* ===============================
+ * Shorthand transform:translate(x,y)
+ * =============================== */
+@mixin move($moveX, $moveY) {
+  transform: translate($moveX, $moveY);
+}
+
+/* ===============================
+ * Shorthand transform:translateY(y)
+ * =============================== */
+@mixin moveX($moveX) {
+  transform: translateX($moveX);
+}
+
+/* ===============================
+ * Shorthand transform:translateX(x)
+ * =============================== */
+@mixin moveY($moveY) {
+  transform: translateY($moveY);
+}
+
+/* ===============================
+ * Short transition
+ * =============================== */
+%tran--short {
+  transition: .5s;
+}
+
+/* ===============================
+ * Medium transition
+ * =============================== */
+%tran--mid {
+  transition: .75s;
+}
+
+/* ===============================
+ * Long transition
+ * =============================== */
+%tran--long {
+  transition: 1s;
+}
