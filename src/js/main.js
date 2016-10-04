@@ -7,7 +7,7 @@ import Vue from "vue";
 import allComponents from "./all-components";
 import Helpers from "./imports/helpers";
 
-// set helpers as a window variables accessible by everything
+// set the helpers class as a window method that everything can access
 window.helpers = new Helpers;
 
 // main vue instance
