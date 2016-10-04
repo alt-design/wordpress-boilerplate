@@ -41,13 +41,9 @@ When your project is ready to go live, simply run gulp --production to build you
 <br><hr><br>
 
 Good luck, <a href="http://alt-design.net" tagret="_blank" style="color:#f60">Alt!</a>
-<br>
-
-
+<br><br>
 <a href="http://alt-design.net" target="_blank">
     <img src="https://alt-design.net/wp-content/themes/alt-design-updated/images/altdesign.svg" height="100" alt="Alt Design Logo" title="Alt Design"/>
 </a>
-
-<br>
-
+<br><br>
 Our WordPress Boilerplate is open-sourced, licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a>.
