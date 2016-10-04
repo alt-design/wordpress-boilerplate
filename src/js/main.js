@@ -10,7 +10,6 @@ import Helpers from "./imports/helpers";
 // set helpers as a window variables accessible by everything
 window.helpers = new Helpers;
 
-
 // main vue instance
 new Vue({
     el: '#app',

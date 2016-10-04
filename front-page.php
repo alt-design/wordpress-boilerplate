@@ -1,4 +1,7 @@
 <?php
-get_header();
-get_footer();
+    get_header();
+?>
+<container>This is the first Vue Component.</container>
+<?php
+    get_footer();
 ?>

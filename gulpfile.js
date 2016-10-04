@@ -1,4 +1,4 @@
-const devURL = 'DEVELOPMENT URL HERE';
+const devURL = 'http://womble.dev';
 
 // == == == == == == == == == == == == == == ==
 // This gulpfile uses the Laravel Elixir API ==
@@ -9,7 +9,8 @@ const devURL = 'DEVELOPMENT URL HERE';
 const elixir = require("laravel-elixir");
 const del = require('del');
 require('laravel-elixir-imagemin');
-require('laravel-elixir-vueify');
+require('laravel-elixir-vue-loader');
+require('laravel-elixir-webpack-official');
 
 
 elixir.config.publicPath = './dist/';
@@ -21,9 +22,11 @@ elixir.extend('delete', function (path) {
     });
 });
 
+//elixir.webpack.mergeConfig();
+
 elixir(function (mix) {
     mix.delete('dist/build')
-        .browserify('vue-main.js')
+        .webpack('main.js')
         .sass('main.scss')
         .sass('admin.scss')
         .browserSync({
@@ -31,5 +34,6 @@ elixir(function (mix) {
             proxy: devURL
         })
         .imagemin()
-        .version(['css/main.css', 'css/admin.css', 'js/vue-main.js']);
+        .copy('dist/css/**', 'dist/build/css')
+        .version(['css/main.css', 'css/admin.css', 'js/main.js']);
 });
