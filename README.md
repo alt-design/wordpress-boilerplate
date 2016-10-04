@@ -27,7 +27,7 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
 <br><hr><br>
 
 ##Build Files
-Run <code>npm run build</code> to build your project (not minified though, see "Get Ready For Production"):
+Run <code>npm run build</code> to build your project (not minified though, see <a href"#get-ready-for-production">"Get Ready For Production"</a>):
 
     npm run build
         
