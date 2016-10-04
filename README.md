@@ -16,13 +16,10 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
 
 
 ##Install
-1. Clone the contents of this repository into your WordPress themes directory:
+Clone the contents of this repository and install the themes dependencies using the command below:
     
-        git clone https://github.com/alt-design/wordpress-boilerplate NAME_OF_FOLDER
-        
-2. Run <code>npm install</code> to resolve the themes dependencies:
-
-        npm install
+    git clone https://github.com/alt-design/wordpress-boilerplate NAME_OF_FOLDER && cd NAME_OF_FOLDER && npm install
+       
 
 <br><hr><br>
 
