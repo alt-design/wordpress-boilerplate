@@ -12,9 +12,8 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
 - <a style="color:#4FC08D" href="http://vuejs.org" target="_blank">Vue.js 2.0 (and single file Vue components)</a>
 - <a style="color:#4286f4" href="https://webpack.github.io/" target="_blank">Webpack</a>
 
-<hr>
+<br><hr><br>
 
-<br><br>
 
 ##Install
 1. Clone the contents of this repository into your WordPress themes directory:
@@ -31,24 +30,18 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
          
 4. Done!
 
-
-<br><br>
-
-<hr>
+<br><hr><br>
 
 ##Get Ready For Production!
 When your project is ready to go live, simply run gulp --production to build your files into lean minified masterpieces:
     
     gulp --production
     
-<br><br>
+
+<br><hr><br>
 
 Good luck, <a href="http://alt-design.net" tagret="_blank" style="color:#f60">Alt!</a>
-
 <br>
-
-<hr>
-
 <a href="http://alt-design.net" target="_blank">
     <img src="https://alt-design.net/wp-content/themes/alt-design-updated/images/altdesign.svg" height="100" alt="Alt Design Logo" title="Alt Design"/>
 </a>
