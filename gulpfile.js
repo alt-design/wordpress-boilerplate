@@ -1,4 +1,4 @@
-const devURL = 'http://womble.dev';
+const devURL = 'DEVELOPMENT URL HERE';
 
 // == == == == == == == == == == == == == == ==
 // This gulpfile uses the Laravel Elixir API ==
@@ -22,18 +22,16 @@ elixir.extend('delete', function (path) {
     });
 });
 
-//elixir.webpack.mergeConfig();
-
 elixir(function (mix) {
     mix.delete('dist/build')
         .webpack('main.js')
         .sass('main.scss')
         .sass('admin.scss')
+        .imagemin()
+        .copy('dist/css/**', 'dist/build/css')
+        .version(['css/main.css', 'css/admin.css', 'js/main.js'])
         .browserSync({
             files: ["./**/*.css", "./**/*.js", './**/*.php'],
             proxy: devURL
-        })
-        .imagemin()
-        .copy('dist/css/**', 'dist/build/css')
-        .version(['css/main.css', 'css/admin.css', 'js/main.js']);
+        });
 });
