@@ -1,23 +1,5 @@
 <?php
 
-/* ----------------------------------------------------
- * Get the path to a versioned Elixir file.
- *
- * @param  string $file
- * @param  string $buildDirectory
- * @return string
- * ---------------------------------------------------- */
-if (!function_exists('elixir')) {
-    function elixir($file, $buildDirectory = 'build')
-    {
-        $manifest = json_decode(file_get_contents(get_template_directory() . ('/dist/' . $buildDirectory . '/rev-manifest.json')), true);
-        if (isset($manifest[$file])) {
-            return get_template_directory_uri() . '/dist/' . $buildDirectory . '/' . $manifest[$file];
-        }
-        return 'File Not Found';
-    }
-}
-
 class helpers
 {
 

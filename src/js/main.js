@@ -15,5 +15,3 @@ new Vue({
     el: '#app',
     components: allComponents
 });
-
-
