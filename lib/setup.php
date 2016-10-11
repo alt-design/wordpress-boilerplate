@@ -41,7 +41,7 @@
          * ---------------------------------------------------- */
         function alt_enqueue_admin_scripts_styles()
         {
-            wp_enqueue_style('admin_css', elixir('css/admin.css'), null, null);
+            wp_enqueue_style('admin_css', get_template_directory_uri() . '/dist/css/admin.css', null, null);
         }
 
         add_action('admin_enqueue_scripts', 'alt_enqueue_admin_scripts_styles');
