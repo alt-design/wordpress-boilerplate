@@ -7,18 +7,22 @@
 <br>
 
 This is our magical WordPress theme boilerplate, out of the box it has mad support for:
-- <a style="color:#F77462" href="https://laravel.com/docs/elixir" target="_blank">Laravel Elixir</a>     
-- <a style="color:#F5E89C" href="http://es6-features.org/" target="_blank">ES6 / ES2015 Javascript</a>
-- <a style="color:#4FC08D" href="http://vuejs.org" target="_blank">Vue.js 2.0 (and single file Vue components)</a>
-- <a style="color:#4286f4" href="https://webpack.github.io/" target="_blank">Webpack</a>
+- <a href="https://yarnpkg.com/" target="_blank">Yarn Dependency Management</a>
+- <a href="https://laravel.com/docs/elixir" target="_blank">Laravel Elixir</a>     
+- <a href="http://es6-features.org/" target="_blank">ES6 / ES2015 Javascript</a>
+- <a href="http://vuejs.org" target="_blank">Vue.js 2.0 (and single file Vue components)</a>
+- <a href="https://webpack.github.io/" target="_blank">Webpack</a>
 
 <br><hr><br>
 
 
 ##Install
-Clone the contents of this repository and install the themes dependencies using the command below:
+Clone the contents of this repository and install the themes dependencies using the commands below:
     
-    git clone https://github.com/alt-design/wordpress-boilerplate NAME_OF_FOLDER && cd NAME_OF_FOLDER && npm install && npm run build
+    git clone https://github.com/alt-design/wordpress-boilerplate NAME_OF_FOLDER
+    cd NAME_OF_FOLDER
+    yarn
+    npm run build
        
 
 <br><hr><br>
