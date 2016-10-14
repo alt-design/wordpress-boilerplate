@@ -1,17 +1,11 @@
 /* ===============================
- * This is the main JavaScript file, it hosts all of our imports and also the main Vue instance.
+ * This is the main JavaScript file, it hosts all of our imports;
  * =============================== */
 
 // imports
-import Vue from "vue";
-import allComponents from "./all-components";
-import Helpers from "./imports/helpers";
+import Helpers from "./imports/helpers"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 // set the helpers class as a window method that everything can access
 window.helpers = new Helpers;
-
-// main vue instance
-new Vue({
-    el: '#app',
-    components: allComponents
-});
