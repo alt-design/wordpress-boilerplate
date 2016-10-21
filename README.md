@@ -11,6 +11,8 @@ This is our magical WordPress theme boilerplate, out of the box it has mad suppo
 - <a href="https://laravel.com/docs/elixir" target="_blank">Laravel Elixir</a>     
 - <a href="http://es6-features.org/" target="_blank">ES6 / ES2015 Javascript</a>
 - <a href="http://vuejs.org" target="_blank">Vue.js 2.0 (and single file Vue components)</a>
+- <a href="http://vuex.vuejs.org/" target="_blank">VueX</a>
+- <a href="https://www.browsersync.io/" target="_blank">Browsersync</a>
 - <a href="https://webpack.github.io/" target="_blank">Webpack</a>
 
 <br><hr><br>
