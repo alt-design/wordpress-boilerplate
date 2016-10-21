@@ -3,9 +3,10 @@
  * =============================== */
 
 // imports
-import Vue from "vue";
-import allComponents from "./all-components";
-import Helpers from "./imports/helpers";
+import Vue from "vue"
+import allComponents from "./all-components"
+import Helpers from "./imports/helpers"
+import store from './vuex/store'
 
 // set the helpers class as a window method that everything can access
 window.helpers = new Helpers;
@@ -13,5 +14,6 @@ window.helpers = new Helpers;
 // main vue instance
 new Vue({
     el: '#app',
+    store,
     components: allComponents
 });
