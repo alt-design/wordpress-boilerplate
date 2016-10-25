@@ -44,6 +44,7 @@
     "vuex": "^2.0.0"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "normalize.css": "^4.2.0",
     "vue": "^2.0.1",
     "vue-google-maps": "^0.1.21",
