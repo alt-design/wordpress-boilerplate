@@ -4,7 +4,7 @@
 
 // imports
 import Vue from "vue"
-import allComponents from "./all-components"
+import allComponents from "./allComponents"
 import Helpers from "./imports/helpers"
 import store from './vuex/store'
 
