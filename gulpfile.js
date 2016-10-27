@@ -12,6 +12,7 @@ require('laravel-elixir-webpack-official');
 
 elixir.config.publicPath = './dist/';
 elixir.config.assetsPath = './src/';
+elixir.config.css.sass.folder = "scss";
 
 elixir( (mix) => {
     mix
